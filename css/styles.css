@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+    font-family: 'Rubik', sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+h1, p, div, input, button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../Assets/Background.png) no-repeat;
+    background-size: cover;
+}
+.container {
+    max-width: 375px;
+}
+.card {
+    border: 0px solid #b2b4bb;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card__tittle-container {
+    background: url(../Assets/Pattern.png);
+    background-color: #0059ff;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__tittle-text {
+    margin: 0 4rem 0 4rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+}
+.card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 2rem;
+    background-color: white;
+}
+.card__text {
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(75, 73, 73);
+    line-height: 2rem;
+}
+.card__text--margin {
+    margin: 0 1rem;
+}
+.card__suscribe {
+    display: flex;
+    justify-content: space-between;
+}
+.card__email, .card__button {
+    border-radius: 5px;
+    height: 4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 2rem 0 1.5rem 0;
+}
+.card__email {
+    width: 22rem;
+    padding-left: 2rem;
+    background-color: #F4F9F9;
+    border: .5px solid #C9CCD5;
+    margin-right: 1rem;
+}
+.card__email:focus {
+    outline: unset;
+    border-color: #b2b4bb;
+}
+.card__email::placeholder {
+    color: #93959c;
+}
+.card__button {
+    width: 10rem;
+    background-color: #0059ff;
+    color: white;
+    border: 0px;
+}
+.card__text--gray {
+    color: #93959c;
+    font-size: 1.3rem;
+}
+.card__user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0 2rem 0;
+}
+.card__user-info {
+    margin-left: .5rem;
+    font-size: 1.3rem;
+    color: rgb(75, 73, 73);
+    line-height: 1.5rem;
+}
+.card__user-info span {
+    color: black;
+    font-weight: 500;
+}
