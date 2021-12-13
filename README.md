@@ -1,6 +1,4 @@
-# Frontend Mentor - NFT preview card component solution
-
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/card-practice-using-bem-and-flexbox-L76iF4PL9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# CodeWell - Newsletter Popup Template
 
 ## Table of contents
 
@@ -19,23 +17,20 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/card-practice-using-bem-and-flexbox-L76iF4PL9)
-- Live Site URL: [Live Site](https://fm-nft-card-component.netlify.app/)
+- Live Site URL: [Live Site](https://cw-newsletter-card-gonzalo-gauna.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 
 ## Author
